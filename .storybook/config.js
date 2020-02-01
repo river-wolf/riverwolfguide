@@ -1,5 +1,9 @@
 import { configure, setAddon } from "@storybook/react"
 import JSXAddon from 'storybook-addon-jsx'
+import { addDecorator } from '@storybook/react';
+import { withInfo } from '@storybook/addon-info';
+ 
+addDecorator(withInfo); 
 
 setAddon(JSXAddon)
 
