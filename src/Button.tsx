@@ -2,6 +2,7 @@ import React from 'react'
 import './Button.css'   
 
 export interface Props {
+    /**  Elemento */
     children: React.ReactNode,
     onClick: () => void,
     disabled?: boolean

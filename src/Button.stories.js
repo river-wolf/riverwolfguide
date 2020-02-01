@@ -1,9 +1,7 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { storiesOf } from '@storybook/react'
 import { Button } from './Button'
-import { color, boolean, text } from '@storybook/addon-knobs'
-
-console.log(Button)
+import { boolean, text } from '@storybook/addon-knobs'
 
 storiesOf('Button', module)
     .addWithJSX('with background', () => (
