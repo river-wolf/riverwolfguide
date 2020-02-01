@@ -5,8 +5,10 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@storybook/addons": "^5.3.9",
     "@storybook/react": "^5.3.9",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "storybook-addon-jsx": "^7.1.14"
   },
   "dependencies": {
     "react": "^16.12.0",
